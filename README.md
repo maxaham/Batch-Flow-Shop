@@ -6,7 +6,14 @@ context to someone who has not been exposed to the set of ideas, and motivation 
 
 The Job Shop problem generally is one of scheduling. **Jobs** are sequences of **tasks** that must be performed in a certain order. Each task requires a 
 specific **machine** to complete its task. The crux of the problem is that the same machine is often required by different tasks; jobs will require many of the same
-machines and must be prioritized.
+machines and thus each job must be prioritzed. The goal is to minimize the **makespan** - the length of time all the jobs, processed one after another, will take.
+
+In the realm of a bakery, the job shop problem is an applicable model for batch scheduling. 
+
+Maybe link this README.md to separate pages.
+
+**can we do two machines at the same time**
+**how are immediate tasks handled - can things be left to wait if needed?**
 
 ## Model in Context
 This part will build on the understanding developed in the [Model Stub](#Model-Stub)
@@ -29,6 +36,8 @@ Validation of models is an important—how would we know if this model is a good
 
 ### References
 References—cite important works that give more thorough descriptions of part or all of the model being considered
+
+[Google OR-Tools](https://developers.google.com/optimization/scheduling/job_shop)
 
 ## Model Simulation
 Refer to the included .py file...
