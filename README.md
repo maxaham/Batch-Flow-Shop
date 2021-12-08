@@ -19,9 +19,10 @@ applicable than it was previously.
 
 ### Mathematical Framework
 The mathematical framework necessary to create a Model Simulation: relate each of the assumptions to a part of the math
-- Though a job doesn't 
-- What does a job shop do
-Future work in this section
+- Though a job doesn't execute out of order, it may leave some wokrstations untouched. Cookie 1 is a good example.
+- Yeilds are computed based on experience at a bakery
+- Yeilds are for a 1x batch size
+Future work to come in this section
 
 #### Yields
 - M1: Mixer - Raw dough (D)
