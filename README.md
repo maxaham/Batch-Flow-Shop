@@ -4,7 +4,8 @@
 The Batch Flow problem generally is one of scheduling. For any given **job** there is a sequence of **tasks** that must be performed in a certain order. Each task requires a specific **machine** to complete its task. The crux of the problem is that the same machine is often required by different tasks; jobs will require many of the same machines and thus each job must be prioritzed. The goal is to minimize the **makespan** - the length of time all the jobs, processed one after another, will take. In the realm of a bakery, batch flow shop methods are an applicable model for job scheduling. Some machines will run in parallel, others will not. 
 
 ## Model in Context
-This part will build on the understanding developed in the [Model Stub](#Model-Stub)
+Building on the [Model Stub](#Model-Stub), I worked at a bakery this past summer. It was a great experience, but it struck me as inefficient in how batches of cookies were scheduled. What model could aid in scheduling batches of cookies? Different scheduling problems have unique solution approaches. Fixed infrastructure implies a flow production type, but flexible employees imlplies batch production.
+
 
 ### Assumptions
 Several simplifying assumptions have been made. These assumptions not only change what the model truly represents, but also may make the model more generally 
