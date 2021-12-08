@@ -48,7 +48,9 @@ Future work to come in this section
 
 ### References
 [Google OR-Tools](https://developers.google.com/optimization/scheduling/job_shop)
+
 [Model approximation for batch flow shop scheduling with fixed batch sizes](https://idealabs.byu.edu/publications/2013BatchFlowAproximation.pdf)
+
 [intuit Quickbooks](https://quickbooks.intuit.com/r/growing-complex-businesses/batch-flow-continuous-and-custom-production-in-manufacturing/)
 
 ## Model Simulation
